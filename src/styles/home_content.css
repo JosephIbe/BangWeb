@@ -1,0 +1,237 @@
+:root {
+    --home-bkg-gradient: linear-gradient(to right bottom, #151515, #2a2a2a);
+    --hero-video-secondary-bkg-gradient: linear-gradient(to right bottom, #2a2a2a, #111111);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-content {
+    width: 100%;
+    height: 100%;
+    /*background: var(--home-bkg-gradient);*/
+    background: #141414;
+    overflow-x: hidden;
+    overflow: hidden;
+    padding-bottom: 180px;
+}
+
+.hero-video {
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/avengers_endgame.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-btn {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -45%);
+}
+
+.center-btn:before,
+.center-btn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid orange;
+    border-radius: 50%;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    bottom: -1px;
+    animation: animate 1.5s ease infinite;
+}
+
+.center-btn:hover {
+    cursor: pointer;
+}
+
+.meta-desc {
+    padding-top: 50vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.meta-desc h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.meta-desc .actions-row {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.action-btn {
+    min-width: 100px;
+    margin: 10px;
+    background: grey!important;
+    opacity: .6;
+}
+
+.action-btn:hover {
+    opacity: 1;
+    color: black;
+}
+
+.genre-tags {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+}
+
+.tag-action {
+    margin-right: 10px;
+    background: firebrick;
+    padding: 5px;
+}
+
+.tag-sci-fi {
+    margin-right: 10px;
+    background: darkolivegreen;
+    padding: 5px;
+}
+
+.tag-strategy {
+    margin-right: 10px;
+    background: tan;
+    padding: 5px;
+}
+
+.movies-row {
+    display: flex;
+}
+
+.section-header-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    font-family: var(--PatuaFont);
+}
+
+.section-header {
+    background-color: darkorange;
+    color: white;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.section-header-more {
+    color: darkorange;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.section-header-more:hover {
+    cursor: pointer;
+}
+
+.my-list {
+    margin-top: 30px;
+}
+
+.popular-movies {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.now-trending {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.hero-video-secondary {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-video-secondary-img{
+    height: 60vh;
+    width: 100%;
+    /*background-image: url("../../assets/avengers_endgame.jpg");*/
+    background-image: url("https://tinyurl.com/yxd4hpyd");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.trending-desc {
+    padding-left: 5%;
+}
+
+.trending-title-primary {
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(.9);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(.9);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero-video {
+        height: 70vh;
+    }
+
+    .meta-desc {
+        padding-top: 34vh;
+    }
+
+    .center-btn {
+        top: 55%
+    }
+
+    .my-list img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .hvs-trending {
+        margin-bottom: 20px;
+    }
+
+    .hero-video-secondary-img {
+        display: none;
+    }
+
+    .drama {
+        margin-bottom: 20px;
+    }
+
+    .documentaries {
+        margin-bottom: 50px;
+    }
+
+}

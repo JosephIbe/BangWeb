@@ -1,0 +1,125 @@
+header {
+    font-family: var(--LobsterFont);
+    background: var(--col-main-black);
+    color: whitesmoke;
+}
+
+.nav {
+    background: var(--col-main-black);
+    height: 12vh;
+}
+
+.nav_link {
+    font-family: var(--SnigletFont);
+    font-size: 1rem;
+    color: darkorange !important;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.nav_link_brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 25px;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+}
+
+.header_content {
+    height: 100vh;
+    padding: 9.5rem 1rem;
+    font-family: var(--RubikFont);
+}
+
+.header_content p {
+    padding: 5px;
+}
+
+.header_content h3 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.auth_page_switch {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    padding-top: 25px;
+}
+
+/*.auth_switch_item_active {*/
+/*background-color: #5ED0C0;*/
+/*color: white;*/
+/*text-decoration: none;*/
+/*outline: none;*/
+/*border: none;*/
+/*}*/
+
+.auth_switch_item_login {
+    background-color: brown;
+    color: #9DA6B1;
+    margin-top: 4px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: .9em;
+    font-family: var(--PatuaFont);
+    display: inline-block;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.auth_switch_item_login:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.auth_switch_item_register {
+    background-color: #4C5D72;
+    color: #9DA6B1;
+    margin-top: 4px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: .9em;
+    font-family: var(--PatuaFont);
+    display: inline-block;
+    text-decoration: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.auth_switch_item_register:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+/*.photo {*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+    /*border-radius: 50%;*/
+    /*overflow: hidden;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*.caret {*/
+    /*top: 14px;*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+/*}*/
+
+/*.dropdown-navbar {*/
+    /*right: -220px !important;*/
+    /*left: auto;*/
+/*}*/
+
+/*.dropdown-menu*/
+/*.dropdown-menu-right.dropdown-navbar:before {*/
+    /*right: auto;*/
+    /*left: 35px;*/
+/*}*/

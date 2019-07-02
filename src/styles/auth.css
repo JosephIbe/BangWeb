@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*padding: .75rem 1.75rem;*/
+}
+
+.auth {
+    /*background-color: #111111;*/
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    color: #3f3f3f;
+}
+
+.bg-image {
+    /*background-image: url("../../assets/capture_camera.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*opacity: .8;*/
+    background-color: #141414;
+}
+
+.login {
+    min-height: 100vh;
+}
+
+.login-heading {
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.input-label {
+    color: maroon;
+    font-weight: bold;
+}
+
+.form-input {
+    border-radius: 19px!important;
+}
+
+/*.input-label:focus {*/
+    /*border-color: #dc3545!important;*/
+    /*outline-color: #dc3545!important;*/
+/*}*/
+
+.form-control {
+    background: transparent!important;
+    color: #b4bfcc!important;
+}
+
+.btn-auth {
+    letter-spacing: 0.5rem;
+    background: darkred!important;
+    font-size: .9rem;
+    padding: .75rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.btn-auth:hover {
+    background: #dc3545!important;
+    opacity: .2;
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.small-text:not(span) {
+    color: floralwhite;
+}
+
+.reset-form-holder {
+    height: 100vh;
+    /*display: flex;*/
+    background: #2a2a2a;
+}
+
+.reset-form-holder h4 {
+    color: darkorange;
+    letter-spacing: 0.3rem;
+}
+
+.btn-reset {
+    letter-spacing: 0.5rem;
+    background: darkred!important;
+    font-size: .9rem;
+    padding: .7rem 1.5rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn-reset:hover {
+    background: #dc3545!important;
+    opacity: .2;
+    color: white;
+}

@@ -1,0 +1,7 @@
+.player_container {
+    position: relative;
+}
+
+.player_container video {
+    width: 100%;
+}

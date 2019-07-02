@@ -1,0 +1,69 @@
+footer {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    background-color: #191919;
+    color: #b4bfcc;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_logo {
+    font-weight: bold;
+    color: orange;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.store-btns-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.store-btn {
+    height: 50px;
+    color: white;
+    background-color: #141414;
+    border: none!important;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.store-btn .app-store {
+    margin-left: 30px;
+}
+
+.contact h5, .doubts h5 {
+    color: #b4bfcc;
+    text-transform: uppercase;
+    font-family: var(--SnigletFont);
+}
+
+.footer_heading {
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 20px;
+    font-family: var(--RubikFont);
+}
+
+.copyright {
+    width: 70%;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright hr {
+    /*border-bottom: 1px solid #bdbdbd;*/
+    /*padding: 20px 0px;*/
+    width: 70%;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+}

@@ -1,0 +1,124 @@
+/* For About Us page style*/
+.about_us {
+    height: 100%;
+    width: 100%;
+    background: #141414;
+}
+
+.about_us .holder {
+    background: #0a0a0a;
+    height: 25vh;
+    position: relative;
+}
+
+.holder h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    bottom: 0;
+    position: absolute;
+    font-family: var(--PatuaFont);
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.holder h3:not(span){
+    color: white;
+    text-transform: uppercase;
+}
+
+.desc {
+    margin-top: 7vh;
+    padding-bottom: 5vh;
+}
+
+.desc h4 {
+    color: orangered;
+}
+
+.desc .free-trial {
+    color: indianred;
+    text-transform: none;
+}
+
+.features {
+    margin-left: 20px;
+}
+
+.features .expect {
+    color: orangered;
+}
+
+/* End About Us page style*/
+
+/* Start Contact Us Page Style */
+.contact_us {
+    height: 100vh;
+    width: 100%;
+    background-color: #040405;
+}
+
+.contact_us h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    bottom: 0;
+    font-family: var(--PatuaFont);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.form_body span, p {
+    color: white;
+}
+
+.contact_us h3:not(span) {
+    color: darkorange;
+}
+
+.form_body {
+    /*top: 50vh;*/
+    left: 50%;
+    max-height: 100vh;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 12.5vh;
+    padding: 20px;
+    background-color: #1b1b1b;
+}
+
+.feedback-input {
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline-color: #dc3545!important;
+}
+
+.feedback-btn:focus {
+    outline-color: darkorange!important;
+}
+
+textarea {
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline-color: #dc3545!important;
+}
+
+.feedback-btn {
+    background: darkred!important;
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.feedback-btn:hover {
+    opacity: .2;
+    background: #dc3545!important;
+}
+
+/* End Contact Us Page Style */
