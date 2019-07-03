@@ -100,7 +100,7 @@ class PopularMoviesSub extends Component {
     };
 
     showPopularGrid = () => {
-        this.props.history.push('/popular/all')
+        this.props.history.push('/popular')
     };
 
     render() {

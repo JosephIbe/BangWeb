@@ -31,7 +31,7 @@ class AuthNav extends Component {
                 <Container fluid className='p-0'>
                     <Navbar dark expand='md' className='nav'>
                         <NavbarBrand href='/' className='nav_link nav_link_brand'>
-                            STRONGLIVE ENTERTAINMENT
+                            STRONGLIVE ENT
                         </NavbarBrand>
 
                         <NavbarToggler onClick={this.toggle} className='mr-2'/>

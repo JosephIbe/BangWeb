@@ -15,7 +15,7 @@ import Home from './home/Home';
 import AllPopular from "./popular/AllPopular";
 import AllDrama from "./drama/AllDrama";
 import AllDocumentaries from "./documentaries/AllDocumentaries";
-import Profile from './home/Profile';
+import Profile from './auth/Profile';
 
 import MovieDetails from "./home/MovieDetails";
 // import WatchList from "./watchlist/WatchList";
@@ -47,7 +47,9 @@ class App extends Component {
 
                             <Route exact path='/movie_detail' component={MovieDetails}/>
                             {/*<Route exact path='/my-watch-list' component={WatchList}/>*/}
+
                             <Route exact path="/profile" component={Profile} />
+                            {/*<Route exact path="/help" component={Help} />*/}
 
                             {/* Queries Routes */}
                             <Route exact path="/about" component={About} />

@@ -100,7 +100,7 @@ class AllPopular extends Component {
                         <Col lg={5} sm={2} md={4}>
                             <div className=''>
                                 {
-                                    this.state.items.map((movie, index) => {
+                                    this.state.items.splice(0,5).map((movie, index) => {
                                         return <MovieCard {...movie} key={index}/>
                                     })
                                 }

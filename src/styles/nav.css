@@ -10,17 +10,17 @@ header {
 }
 
 .nav_link {
-    font-family: var(--SnigletFont);
-    font-size: 1rem;
+    font-family: var(--Poppins);
+    font-size: .9rem;
     color: darkorange !important;
     text-transform: uppercase;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .nav_link_brand {
     font-weight: bold;
     font-size: 1.5rem;
-    padding-top: 25px;
+    padding-top: 28px;
 }
 
 .nav_link:hover {
@@ -49,14 +49,6 @@ header {
     margin-bottom: 10%;
     padding-top: 25px;
 }
-
-/*.auth_switch_item_active {*/
-/*background-color: #5ED0C0;*/
-/*color: white;*/
-/*text-decoration: none;*/
-/*outline: none;*/
-/*border: none;*/
-/*}*/
 
 .auth_switch_item_login {
     background-color: brown;
@@ -98,28 +90,3 @@ header {
     text-decoration: none;
     color: brown;
 }
-
-/*.photo {*/
-    /*height: 30px;*/
-    /*width: 30px;*/
-    /*border-radius: 50%;*/
-    /*overflow: hidden;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/*.caret {*/
-    /*top: 14px;*/
-    /*position: absolute;*/
-    /*right: 10px;*/
-/*}*/
-
-/*.dropdown-navbar {*/
-    /*right: -220px !important;*/
-    /*left: auto;*/
-/*}*/
-
-/*.dropdown-menu*/
-/*.dropdown-menu-right.dropdown-navbar:before {*/
-    /*right: auto;*/
-    /*left: 35px;*/
-/*}*/

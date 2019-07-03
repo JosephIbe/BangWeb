@@ -1,0 +1,46 @@
+.landing {
+    height: 100vh;
+    margin-top: 0;
+    background: var(--col-main-black);
+    position: relative;
+}
+
+.intro-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.intro-text h1 {
+    color: steelblue;
+    padding-bottom: 20px;
+}
+
+.cta-btn {
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5vh;
+    background-color: brown;
+}
+
+.cta-btn:hover {
+    text-decoration: none;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: #b4bfcc;
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .intro-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .intro-text h4 {
+        display: none;
+    }
+}
