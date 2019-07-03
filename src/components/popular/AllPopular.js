@@ -91,14 +91,23 @@ class AllPopular extends Component {
         ]
     };
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
+
+        const gStyle = {
+            display: 'grid'
+        };
+
         return (
             <div>
-                {/*<HomeNav/>*/}
+                <HomeNav/>
                 <Container fluid>
                     <Row>
                         <Col lg={5} sm={2} md={4}>
-                            <div className=''>
+                            <div className='' style={gStyle}>
                                 {
                                     this.state.items.splice(0,5).map((movie, index) => {
                                         return <MovieCard {...movie} key={index}/>

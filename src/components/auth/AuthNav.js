@@ -27,40 +27,38 @@ class AuthNav extends Component {
     render() {
 
         return (
-            <header>
-                <Container fluid className='p-0'>
-                    <Navbar dark expand='md' className='nav'>
-                        <NavbarBrand href='/' className='nav_link nav_link_brand'>
-                            STRONGLIVE ENT
-                        </NavbarBrand>
+            <div>
+                <Navbar dark expand='md' className='nav'>
+                    <NavbarBrand href='/' className='nav_link nav_link_brand'>
+                        STRONGLIVE ENT
+                    </NavbarBrand>
 
-                        <NavbarToggler onClick={this.toggle} className='mr-2'/>
+                    <NavbarToggler onClick={this.toggle} className='mr-2'/>
 
-                        <Collapse navbar isOpen={this.state.isOpen}>
+                    <Collapse navbar isOpen={this.state.isOpen}>
 
-                            <Nav className='ml-auto' navbar>
+                        <Nav className='ml-auto' navbar>
 
-                                <div className='auth_page_switch'>
-                                    <NavLink
-                                        to='/login'
-                                        className='auth_switch_item_login'
-                                    >
-                                        Login
-                                    </NavLink>
-                                    <NavLink
-                                        to='/register'
-                                        className='auth_switch_item_register'
-                                    >
-                                        Register
-                                    </NavLink>
-                                </div>
+                            <div className='auth_page_switch'>
+                                <NavLink
+                                    to='/login'
+                                    className='auth_switch_item_login'
+                                >
+                                    Login
+                                </NavLink>
+                                <NavLink
+                                    to='/register'
+                                    className='auth_switch_item_register'
+                                >
+                                    Register
+                                </NavLink>
+                            </div>
 
-                            </Nav>
-                        </Collapse>
+                        </Nav>
+                    </Collapse>
 
-                    </Navbar>
-                </Container>
-            </header>
+                </Navbar>
+            </div>
         );
     }
 

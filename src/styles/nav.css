@@ -1,9 +1,3 @@
-header {
-    font-family: var(--LobsterFont);
-    background: var(--col-main-black);
-    color: whitesmoke;
-}
-
 .nav {
     background: var(--col-main-black);
     height: 12vh;
@@ -13,7 +7,6 @@ header {
     font-family: var(--Poppins);
     font-size: .9rem;
     color: darkorange !important;
-    text-transform: uppercase;
     padding-top: 20px;
 }
 
@@ -89,4 +82,12 @@ header {
 .auth_switch_item_register:hover {
     text-decoration: none;
     color: brown;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul hr {
+    color: darkorange;
 }

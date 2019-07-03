@@ -24,6 +24,11 @@ class Contact extends Component {
         queryMessage: ''
     };
 
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     handleInputChange = (e) => {
 
     };

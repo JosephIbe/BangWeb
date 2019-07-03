@@ -1,19 +1,8 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 
 import {
-    Container,
-    Nav,
-    Navbar,
-    NavbarBrand,
-    NavLink,
-    NavItem,
-    NavbarToggler,
-    Collapse,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    Collapse, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink,
+    UncontrolledDropdown
 } from 'reactstrap';
 
 import ProfileAvatar from '../../assets/anime3.png';
@@ -33,12 +22,6 @@ class HomeNav extends Component {
         })
     };
 
-    dropdownToggle = e => {
-        this.setState({
-            dropdownOpen: !this.state.dropdownOpen
-        });
-    };
-
     render() {
 
         const avatarStyle = {
@@ -54,7 +37,7 @@ class HomeNav extends Component {
         return (
 
             <div>
-                <Navbar color="dark" dark expand="md">
+                <Navbar color="dark" dark expand="md" className='nav'>
                     <NavbarBrand href="/browse" className='nav_link nav_link_brand'>
                         STRONGLIVE ENT
                     </NavbarBrand>
@@ -87,13 +70,20 @@ class HomeNav extends Component {
                                 <DropdownMenu right style={dStyle}>
                                     <ul>
                                         <li>
-                                            <NavLink href='/profile'>
-                                                <img src={ProfileAvatar} alt="profile_avatar" style={avatarStyle}/>
-                                                &nbsp;My Profile
+                                            <NavLink href='/profile' className='text-center'>
+                                                {/*<img src={ProfileAvatar} alt="profile_avatar" style={avatarStyle}/>*/}My Profile
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink href='/register'>Help Center</NavLink>
+                                            <NavLink href='/register' className='text-center'>
+                                                Help Center
+                                            </NavLink>
+                                        </li>
+
+                                        <li>
+                                            <NavLink href='/' className='text-center'>
+                                                Sign Out
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </DropdownMenu>
