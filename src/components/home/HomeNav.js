@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import {NavLink} from 'react-router-dom';
 
 import {
-    Collapse, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink,
+    Collapse, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem,
     UncontrolledDropdown
 } from 'reactstrap';
 
