@@ -70,12 +70,12 @@ class HomeNav extends Component {
                                 <DropdownMenu right style={dStyle}>
                                     <ul>
                                         <li>
-                                            <NavLink href='/profile' className='text-center'>
+                                            <NavLink href='#' className='text-center'>
                                                 {/*<img src={ProfileAvatar} alt="profile_avatar" style={avatarStyle}/>*/}My Profile
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink href='/register' className='text-center'>
+                                            <NavLink href='#' className='text-center'>
                                                 Help Center
                                             </NavLink>
                                         </li>
