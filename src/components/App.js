@@ -41,9 +41,9 @@ class App extends Component {
                             {/* Main Routes */}
                             <Route exact path="/browse" component={Home} />
 
-                            <Route exact path='/popular/all' component={AllPopular}/>
-                            <Route exact path='/documentaries/all' component={AllDocumentaries}/>
-                            <Route exact path='/drama/all' component={AllDrama}/>
+                            <Route exact path='/popular' component={AllPopular}/>
+                            <Route exact path='/documentaries' component={AllDocumentaries}/>
+                            <Route exact path='/drama' component={AllDrama}/>
 
                             <Route exact path='/movie_detail' component={MovieDetails}/>
                             {/*<Route exact path='/my-watch-list' component={WatchList}/>*/}
