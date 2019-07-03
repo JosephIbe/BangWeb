@@ -88,7 +88,7 @@ class HomeNav extends Component {
                                 </DropdownToggle>
                                 <DropdownMenu right style={dStyle}>
                                     <ul>
-                                        <li className='nav-item'>
+                                        <li>
                                             <NavLink to='/profile' className='text-center nav_link'>
                                                 {/*<img src={ProfileAvatar} alt="profile_avatar" style={avatarStyle}/>*/}My Profile
                                             </NavLink>
