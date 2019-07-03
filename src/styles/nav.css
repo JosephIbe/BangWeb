@@ -7,13 +7,22 @@
     font-family: var(--Poppins);
     font-size: .9rem;
     color: darkorange !important;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 .nav_link_brand {
+    font-family: var(--Poppins);
+    color: darkorange !important;
+    padding-top: 25px;
     font-weight: bold;
     font-size: 1.5rem;
     padding-top: 28px;
+}
+
+.nav_link:hover, .nav_link_brand:hover {
+    text-decoration: none;
 }
 
 .nav_link:hover {

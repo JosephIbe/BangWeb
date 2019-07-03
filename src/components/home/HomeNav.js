@@ -39,7 +39,7 @@ class HomeNav extends Component {
 
             <div>
                 <Navbar color="dark" dark expand="md" className='nav'>
-                    <NavbarBrand href="/browse" className='nav_link nav_link_brand'>
+                    <NavbarBrand href="/browse" className='nav_link_brand'>
                         STRONGLIVE ENT
                     </NavbarBrand>
 
@@ -47,17 +47,35 @@ class HomeNav extends Component {
 
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
-                            <NavItem className='nav_link'>
-                                <NavLink href="#">Drama</NavLink>
-                            </NavItem>
 
-                            <NavItem className='nav_link'>
-                                <NavLink href="#">Documentaries</NavLink>
-                            </NavItem>
+                            <ul className='navbar'>
+                                <li className='nav-item nav_link'>
+                                    <NavLink
+                                        href="#"
+                                        className='nav_link'
+                                    >
+                                        Drama
+                                    </NavLink>
+                                </li>
 
-                            <NavItem className='nav_link'>
-                                <NavLink href="#">Recent Additions</NavLink>
-                            </NavItem>
+                                <li className='nav-item nav_link'>
+                                    <NavLink
+                                        href="#"
+                                        className='nav_link'
+                                    >
+                                        Documentaries
+                                    </NavLink>
+                                </li>
+
+                                <li className='nav-item nav_link'>
+                                    <NavLink
+                                        href="#"
+                                        className='nav_link'
+                                    >
+                                        Recent Additions
+                                    </NavLink>
+                                </li>
+                            </ul>
 
                         </Nav>
 
@@ -70,19 +88,19 @@ class HomeNav extends Component {
                                 </DropdownToggle>
                                 <DropdownMenu right style={dStyle}>
                                     <ul>
-                                        <li>
-                                            <NavLink to='/profile' className='text-center'>
+                                        <li className='nav-item'>
+                                            <NavLink to='/profile' className='text-center nav_link'>
                                                 {/*<img src={ProfileAvatar} alt="profile_avatar" style={avatarStyle}/>*/}My Profile
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink href='#' className='text-center'>
+                                            <NavLink to='#' className='text-center nav_link'>
                                                 Help Center
                                             </NavLink>
                                         </li>
 
                                         <li>
-                                            <NavLink href='/' className='text-center'>
+                                            <NavLink to='/' className='text-center nav_link'>
                                                 Sign Out
                                             </NavLink>
                                         </li>
